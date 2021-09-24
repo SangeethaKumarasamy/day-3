@@ -1,0 +1,3 @@
+1.WINDOW is the execution context and global object for that context's JavaScript
+2.DOCUMENT contains the DOM, initialized by parsing HTML
+3.SCREEN describes the physical display's full screen

@@ -1,7 +1,38 @@
+//FOR LOOP:
+for (let i = 0; i < 5; i++) {
+  text += "The number is " + i + "<br>";
+}
+
+//FOR IN LOOP:
+const numbers = [0,1,2,3];
+
+let txt = "";
+for (let x in numbers) {
+  txt += numbers[x];
+}
+
+//FOR OF LOOP:
+let language = "JavaScript";
+let text = "";
+for (let x of language) {
+text += x;
+}
+
+
+//FOR EACH LOOP:
+let sum = 0;
+const numbers = [65,12,4];
+numbers.forEach(myFunction);
+
+function myFunction(item) {
+  sum += item;
+}
+
+//creating a resume
 var obj_resume={
    
     basics:{
-    name:"Sangeetha Kumarsamy",
+    name:"Sangeetha Kumarasamy",
     email:"vpksangeetha@gmail.com",
     mobile_number:"824892932",
     Address:"Sankari,Salem",
@@ -37,3 +68,5 @@ var obj_resume={
    }
  
 console.log(obj_resume);
+
+
